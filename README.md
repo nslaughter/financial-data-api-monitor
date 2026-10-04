@@ -38,7 +38,10 @@ The monitor is the third of four stages in a demonstration for financial data
 providers. It checks the
 [financial-data-api](https://github.com/nslaughter/financial-data-api)
 with the same customer requests a reader can run through the
-[financial-data-sdk](https://github.com/nslaughter/financial-data-sdk).
+[Python](https://github.com/nslaughter/financial-data-sdk-python),
+[Go](https://github.com/nslaughter/financial-data-sdk-go), or
+[TypeScript](https://github.com/nslaughter/financial-data-sdk-ts) SDK. The
+monitor itself will be written in Go.
 
 ## An HTTP success does not establish that the expected data arrived
 
@@ -149,8 +152,10 @@ unless separate evidence establishes them.
 
 - [financial-data-api](https://github.com/nslaughter/financial-data-api):
   the API these checks examine.
-- [financial-data-sdk](https://github.com/nslaughter/financial-data-sdk):
-  the client a reader can use to run the same customer requests.
+- [financial-data-sdk-python](https://github.com/nslaughter/financial-data-sdk-python),
+  [financial-data-sdk-go](https://github.com/nslaughter/financial-data-sdk-go), and
+  [financial-data-sdk-ts](https://github.com/nslaughter/financial-data-sdk-ts):
+  clients a reader can use to run the same customer requests.
 - *Checking whether your API delivers the expected data*: an article on this
   approach, in preparation. I'll link it here when it is published.
 - *The timestamps that make financial data usable*: an article on the time
